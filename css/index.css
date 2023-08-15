@@ -1,0 +1,78 @@
+.principal{
+    max-width: 480px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10rem 48.7rem 10rem;
+    justify-content: center;
+}
+.header{
+    height: 8rem;
+    background-color: rgb(136, 132, 132);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: white;
+    padding: 0 5rem;
+}
+.header span{
+    color: purple;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.header span:hover{
+    color: red;
+}
+.contenedor{
+    padding: 0 0 0 2rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.porque{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.footer{
+    height: 8rem;
+    background-color: rgb(136, 132, 132);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: white;
+}
+.staks{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.stak{
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.stak:hover{
+    border: 1px solid black;
+}
+.stak img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
